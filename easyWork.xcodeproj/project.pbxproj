@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363488871A17C22D00A9D029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363488861A17C22D00A9D029 /* AppDelegate.swift */; };
+		363488891A17C22D00A9D029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363488881A17C22D00A9D029 /* ViewController.swift */; };
+		3634888B1A17C22D00A9D029 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634888A1A17C22D00A9D029 /* Document.swift */; };
+		3634888E1A17C22D00A9D029 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3634888C1A17C22D00A9D029 /* Document.xcdatamodeld */; };
+		363488901A17C22D00A9D029 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3634888F1A17C22D00A9D029 /* Images.xcassets */; };
+		363488931A17C22D00A9D029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 363488911A17C22D00A9D029 /* Main.storyboard */; };
+		3634889F1A17C22D00A9D029 /* easyWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3634889E1A17C22D00A9D029 /* easyWorkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363488991A17C22D00A9D029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 363488791A17C22D00A9D029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 363488801A17C22D00A9D029;
+			remoteInfo = easyWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		363488811A17C22D00A9D029 /* easyWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363488851A17C22D00A9D029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		363488861A17C22D00A9D029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		363488881A17C22D00A9D029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3634888A1A17C22D00A9D029 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		3634888D1A17C22D00A9D029 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		3634888F1A17C22D00A9D029 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		363488921A17C22D00A9D029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		363488981A17C22D00A9D029 /* easyWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3634889D1A17C22D00A9D029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3634889E1A17C22D00A9D029 /* easyWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyWorkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3634887E1A17C22D00A9D029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363488951A17C22D00A9D029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363488781A17C22D00A9D029 = {
+			isa = PBXGroup;
+			children = (
+				363488831A17C22D00A9D029 /* easyWork */,
+				3634889B1A17C22D00A9D029 /* easyWorkTests */,
+				363488821A17C22D00A9D029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363488821A17C22D00A9D029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363488811A17C22D00A9D029 /* easyWork.app */,
+				363488981A17C22D00A9D029 /* easyWorkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363488831A17C22D00A9D029 /* easyWork */ = {
+			isa = PBXGroup;
+			children = (
+				363488861A17C22D00A9D029 /* AppDelegate.swift */,
+				363488881A17C22D00A9D029 /* ViewController.swift */,
+				3634888A1A17C22D00A9D029 /* Document.swift */,
+				3634888F1A17C22D00A9D029 /* Images.xcassets */,
+				363488911A17C22D00A9D029 /* Main.storyboard */,
+				3634888C1A17C22D00A9D029 /* Document.xcdatamodeld */,
+				363488841A17C22D00A9D029 /* Supporting Files */,
+			);
+			path = easyWork;
+			sourceTree = "<group>";
+		};
+		363488841A17C22D00A9D029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				363488851A17C22D00A9D029 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3634889B1A17C22D00A9D029 /* easyWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3634889E1A17C22D00A9D029 /* easyWorkTests.swift */,
+				3634889C1A17C22D00A9D029 /* Supporting Files */,
+			);
+			path = easyWorkTests;
+			sourceTree = "<group>";
+		};
+		3634889C1A17C22D00A9D029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3634889D1A17C22D00A9D029 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363488801A17C22D00A9D029 /* easyWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363488A21A17C22D00A9D029 /* Build configuration list for PBXNativeTarget "easyWork" */;
+			buildPhases = (
+				3634887D1A17C22D00A9D029 /* Sources */,
+				3634887E1A17C22D00A9D029 /* Frameworks */,
+				3634887F1A17C22D00A9D029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easyWork;
+			productName = easyWork;
+			productReference = 363488811A17C22D00A9D029 /* easyWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		363488971A17C22D00A9D029 /* easyWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363488A51A17C22D00A9D029 /* Build configuration list for PBXNativeTarget "easyWorkTests" */;
+			buildPhases = (
+				363488941A17C22D00A9D029 /* Sources */,
+				363488951A17C22D00A9D029 /* Frameworks */,
+				363488961A17C22D00A9D029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3634889A1A17C22D00A9D029 /* PBXTargetDependency */,
+			);
+			name = easyWorkTests;
+			productName = easyWorkTests;
+			productReference = 363488981A17C22D00A9D029 /* easyWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363488791A17C22D00A9D029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hikohong;
+				TargetAttributes = {
+					363488801A17C22D00A9D029 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					363488971A17C22D00A9D029 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 363488801A17C22D00A9D029;
+					};
+				};
+			};
+			buildConfigurationList = 3634887C1A17C22D00A9D029 /* Build configuration list for PBXProject "easyWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 363488781A17C22D00A9D029;
+			productRefGroup = 363488821A17C22D00A9D029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363488801A17C22D00A9D029 /* easyWork */,
+				363488971A17C22D00A9D029 /* easyWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3634887F1A17C22D00A9D029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363488901A17C22D00A9D029 /* Images.xcassets in Resources */,
+				363488931A17C22D00A9D029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363488961A17C22D00A9D029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3634887D1A17C22D00A9D029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3634888E1A17C22D00A9D029 /* Document.xcdatamodeld in Sources */,
+				363488891A17C22D00A9D029 /* ViewController.swift in Sources */,
+				363488871A17C22D00A9D029 /* AppDelegate.swift in Sources */,
+				3634888B1A17C22D00A9D029 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363488941A17C22D00A9D029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3634889F1A17C22D00A9D029 /* easyWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3634889A1A17C22D00A9D029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 363488801A17C22D00A9D029 /* easyWork */;
+			targetProxy = 363488991A17C22D00A9D029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		363488911A17C22D00A9D029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363488921A17C22D00A9D029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363488A01A17C22D00A9D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		363488A11A17C22D00A9D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		363488A31A17C22D00A9D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = easyWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		363488A41A17C22D00A9D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = easyWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		363488A61A17C22D00A9D029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = easyWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easyWork.app/Contents/MacOS/easyWork";
+			};
+			name = Debug;
+		};
+		363488A71A17C22D00A9D029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = easyWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easyWork.app/Contents/MacOS/easyWork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3634887C1A17C22D00A9D029 /* Build configuration list for PBXProject "easyWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363488A01A17C22D00A9D029 /* Debug */,
+				363488A11A17C22D00A9D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363488A21A17C22D00A9D029 /* Build configuration list for PBXNativeTarget "easyWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363488A31A17C22D00A9D029 /* Debug */,
+				363488A41A17C22D00A9D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		363488A51A17C22D00A9D029 /* Build configuration list for PBXNativeTarget "easyWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363488A61A17C22D00A9D029 /* Debug */,
+				363488A71A17C22D00A9D029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3634888C1A17C22D00A9D029 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3634888D1A17C22D00A9D029 /* Document.xcdatamodel */,
+			);
+			currentVersion = 3634888D1A17C22D00A9D029 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 363488791A17C22D00A9D029 /* Project object */;
+}
